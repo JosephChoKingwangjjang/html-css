@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.menu {
+display: grid;
+grid-template-columns:  0.184fr 1.25fr 3.065fr 0.7fr 0.5fr 0.24fr;
+padding: 18.8px;
+}
+
+.logo {
+    height: 35.8px;
+    margin: 7px;
+    justify-content: right;
+}
+
+.centerMenu {
+    color: #4c2a00;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 19.5px;
+}
+
+.menuRight {
+    color: white;
+    background-color: #09483b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    height: 50px;
+    width: 140.80px;
+    font-weight: 700;
+}
+
+.page1 {
+    width: 95%;
+    padding: 38px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.page1Picture1 {
+    width: 100%;
+    height: 788.47px;
+    border-radius: 30px;
+    position: absolute;
+    z-index: -1;
+}
+
+.insideText {
+    width: 1236.4px;
+    height: 688.47px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: baseline;
+}
+
+.zeroOneOne {
+    color: white;
+    background-color: black; opacity: 0.5;
+    width: 63.68px;
+    height: 30px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box01 {
+    color: white;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.more1 {
+    color: #09483b;
+    background-color: white;
+    width: 130.97px;
+    height: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+}
+
+.box1 {
+    width: 100%;
+    height: 750px;
+    background-color: gray;
+    background-image: url("./img/mainWide.png");
+    background-size: cover;
+}
+
+.box2 {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2Text {
+    width: 600px;
+    font-size: 50px;
+    font-weight: 700;
+    color: navy;
+    text-align: right;
+    padding: 100px;
+}
+
+.box2img {
+    height: 600px;
+}
